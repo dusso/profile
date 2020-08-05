@@ -1,0 +1,223 @@
+* {
+  font-family: "quicksand";
+}
+
+body {
+  background: #F7F9FC;
+}
+
+h2 {
+
+  font-size: 2em;
+}
+
+#intro {
+  position: relative;
+}
+
+.block_white {
+  width: 60%;
+  height: 12em;
+  top: 18em;
+  background-color: white;
+  box-shadow: 0px 9px 9px rgba(250, 156, 146, 0.3);
+
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  position: absolute;
+  left: 14%;
+}
+
+.block_white h1 {
+  color: #000000b5;
+  margin-top: -20px;
+  line-height: 1.4em;
+}
+
+.block_white h2 {
+  color: #21211e2e;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+
+}
+
+
+
+.profile-btn {
+  background-color: #fccc33;
+  color: white;
+  padding: 8px 40px;
+  border-radius: 100px;
+  margin-top: 20px;
+  position: relative;
+}
+
+/* ###### CARD PROFILE ###### */
+
+.img-profile {
+  width: 350px;
+}
+
+.card_profile {
+  background-color: #fa9c92;
+  padding: 40px;
+  box-shadow: 0px 9px 9px rgba(250, 156, 146, 0.3);
+  border-radius: 20px;
+  margin: 20px 0px;
+  text-align: center;
+  color: white;
+  height: 400px;
+  margin-bottom: 100px;
+}
+
+#intro h2 {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+/* ###### CARD SKILLS ###### */
+
+.card_skill {
+  background-color: #72d9b4;
+  padding: 40px;
+  box-shadow: 0px 9px 9px rgba(114, 217, 180, 0.3);
+  border-radius: 20px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.card_skill h3 {
+  color: #53b391;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.card_skill h3 spam {
+  color: #b6eeda;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+/* ###### CARD HOBBIE ###### */
+
+.card_hobbie {
+  background-color: #85d7ef;
+  padding: 40px;
+  box-shadow: 0px 9px 9px rgba(190, 234, 247, 1);
+  border-radius: 20px;
+  margin: 20px 0px;
+  text-align: center;
+  color: white;
+}
+
+.card_hobbie h3 {
+  color: #bdeffe;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.card_hobbie h3 spam {
+  color: #b6eeda;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+/* ###### CARD FOLLOW ###### */
+
+.card_follow {
+  background-color: #a99fe3;
+  padding: 40px;
+  box-shadow: 0px 9px 9px rgba(169, 159, 227, 0.3);
+  border-radius: 20px;
+  margin: 20px 0px;
+  text-align: center;
+  color: white;
+}
+
+.social i:hover {
+  color: #c4bafb;
+}
+
+
+
+
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+
+
+.card_follow a:hover {
+  color: red;
+}
+
+
+/* Custom design with class (99% of your design) */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card_design {
+  background-color: #72d9b4;
+  padding: 40px;
+  /* box-shadow: 0px 9px 9px rgba(0,0,0,0.1); */
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+
+.cards {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 9px 9px rgba(0,0,0,0.1);
+  /* border: 2px solid rgba(0,0,0,0.1);*/
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+
+.btn-blue:hover {
+  background-color: black;
+  color: white;
+}
+.social {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.social li {
+  display: inline;
+  padding: 10px;
+}
+.social i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+
+
+/* Design adjustments using id (1% design remaining) */
+#intro p {
+  margin-bottom: 40px;
+}
+
+/*
+.profile-btn {
+  background-color: white;
+  color: #fccc33;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+
+
+
